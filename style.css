@@ -1,6 +1,38 @@
-td {
-  width: 200px;
+body {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
-.number{
-  width: 50px;
+.container {
+  text-align: center;
+  width: auto;
+}
+
+.logo {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.img-circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.table {
+  margin: 30px auto;
+}
+
+.table-bordered th {
+  border: 2px solid red;
+}
+
+.table-bordered td {
+  border: 2px solid red;
+}
+
+th {
+  text-align: center;
 }
